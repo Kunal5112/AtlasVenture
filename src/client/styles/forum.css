@@ -1,0 +1,47 @@
+/* styles.css */
+
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  background-color: #333;
+  padding: 10px;
+}
+
+button {
+  background-color: #555;
+  color: white;
+  padding: 10px;
+  cursor: pointer;
+  border: none;
+}
+
+button.active {
+  background-color: #777;
+}
+
+button:hover {
+  background-color: #777;
+}
+
+main {
+  max-width: 600px;
+  margin: 20px auto;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.postCard {
+  border: 1px solid #ddd;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.postCard h3 {
+  margin-bottom: 5px;
+}

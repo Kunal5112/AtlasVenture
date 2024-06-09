@@ -1,0 +1,26 @@
+body nav {
+    background-color: #333;
+    overflow: hidden;
+    color: white;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Arial', sans-serif;
+}
+
+body nav img {
+    max-height: 50px; /* Adjust the height as needed */
+    margin: 0;
+}
+
+body nav a {
+    color: white;
+    text-decoration: none;
+    padding: 3px 16px;
+    transition: background-color 0.3s;
+}
+
+body nav a:hover {
+    background-color: #555; /* Change the color on hover as needed */
+}

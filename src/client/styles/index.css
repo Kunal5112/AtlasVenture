@@ -1,0 +1,36 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+
+
+.home {
+    display: flex;
+    align-items: center;
+    min-height: 100vh;
+    background: url('../../../public/images/main_image.jpeg') no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.home .content {
+    max-width: 50rem;
+    margin-left: 2rem;
+}
+
+.home .content h3 {
+    font-size: 4rem;
+    color: black;
+    margin-right: 2rem;
+}
+
+.home .content span {
+    font-size: 1.5rem;
+    color: var(--black);
+}
+
+.p {
+    font-size: 3rem;
+    margin-right: 2rem;
+}

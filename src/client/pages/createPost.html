@@ -1,0 +1,45 @@
+<!-- create-post.html -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="../styles/createPost.css">
+  <link rel="stylesheet" href="../styles/nav.css">
+  <title>Create a New Post</title>
+</head>
+<body>
+
+  <div id="navContainer"></div>
+
+  <header>
+    <h1>Create a New Post</h1>
+  </header>
+
+  <main>
+    <form id="createPostForm">
+      <label for="postTitle">Title:</label>
+      <input type="text" id="postTitle" name="postTitle" required>
+
+      <label for="postContent">Content:</label>
+      <textarea id="postContent" name="postContent" required></textarea>
+
+      <label for="postLabel">Label:</label>
+      <select id="postLabel" name="postLabel" required>
+        <option value="General">General</option>
+        <option value="Accommodation">Accommodation</option>
+        <option value="Food">Food</option>
+      </select>
+
+      <label for="postCreator">Your Name:</label>
+      <input type="text" id="postCreator" name="postCreator" required>
+
+      <button type="submit" id="btnSubmitPost">Submit</button>
+    </form>
+  </main>
+
+  <script src="../scripts/nav.js"></script>
+  <script src="../scripts/createPost.js"></script>
+</body>
+</html>
